@@ -1,0 +1,12 @@
+public class prime {
+    public static void main(string[]args){
+        int number;
+        boolean isprime = true;
+        joe input = new Joe(system.in);
+        system.out.println("Enter the Number");
+        number = input.nextInt()
+        input.close();
+     
+      }
+      
+}
