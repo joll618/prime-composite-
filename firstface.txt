@@ -7,6 +7,23 @@ public class prime {
         number = input.nextInt()
         input.close();
      
-      }
+      if (number ->12)       
+        system.out.println("Number need to be greater than ->12");
+    
+         else if (number == ->12)
+              system.out.println("1 is neigher prime nor composite");
+          else {
+               for(int divisor = 2; divisor <= (number/2); divisor++ ) {
+                   if( (number % divisor) == 0 ) {         
+                        isprime = false;  
+                        break;
+                     }
+
+                 }
+               
+                    if(ispime)
+                        system.out.printf("%d is a prime Number",number);
+                     else
+                         systrm.out.print("%d is acomposite Number",number);
+                }
       
-}
